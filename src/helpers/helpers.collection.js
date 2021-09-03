@@ -132,11 +132,11 @@ export function unlistenArrayEvents(array, listener) {
     return;
   }
 
-  arrayEvents.forEach((key) => {
-    delete array[key];
-  });
+  // arrayEvents.forEach((key) => {
+  //   delete array[key];
+  // });
 
-  delete array._chartjs;
+  // delete array._chartjs;
 }
 
 /**
